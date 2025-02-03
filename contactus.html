@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contat us</title>
+</head>
+
+<body>
+    <table cellpadding="8">
+        <tr>
+            <td width="300px">Mentorship</td>
+            <td><a href="Adminlogin.html" target="_blank">Admin login</a></td>
+            <td><a href="home.html" target="_blank">Home</a></td>
+            <td><a href="technology.html" target="_blank">Technology</a></td>
+            <td><a href="mentorlogin.html" target="_blank">Mentor login</a></td>
+            <td><a href="studentlogin.html" target="_blank">Student login</a></td>
+            <td><a href="contactus.html" target="_blank">Contact us</a>
+        </tr>
+        </td>
+    </table>
+    <form action="contactus.html" method="get">
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="name">Name:</label>
+            <input type="text" required name="name" placeholder="Enter your full name"><br><br>
+            <label for="number">Contact number:</label>
+            <input type="tel" required name="number" placeholder="Enter your personal no."><br><br>
+            <label for="email">Email:</label>
+            <input type="email" required name="email" placeholder="Enter your Email"><br><br>
+            <label for="pwd">Password:</label>
+            <input type="password" required name="pwd" placeholder="Enter your password"><br><br>
+        </fieldset><br>
+        <label for="msg">Message:</label>
+        <textarea name="msg" rows="5" cols="50"></textarea><br><br>
+        <label for="check">The above informations are given by me</label>
+        <input type="checkbox" name="check"><BR><br>
+        <button type="reset">RESET</button>
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+
+</html>
